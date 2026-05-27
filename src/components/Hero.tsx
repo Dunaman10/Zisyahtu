@@ -7,8 +7,8 @@ export default function Hero() {
       className="relative min-h-[90vh] pt-32 pb-20 flex items-center justify-center bg-brand-deep overflow-hidden"
     >
       {/* Dynamic Background Glowing Orbs */}
-      <div className="absolute top-1/4 left-1/4 w-72 sm:w-96 h-72 sm:h-96 rounded-full bg-brand-teal/15 blur-[80px] sm:blur-[120px] animate-aurora-slow -z-10" />
-      <div className="absolute bottom-1/4 right-1/4 w-72 sm:w-96 h-72 sm:h-96 rounded-full bg-brand-purple/15 blur-[80px] sm:blur-[120px] animate-aurora-delay -z-10" />
+      <div className="hidden md:block absolute top-1/4 left-1/4 w-72 sm:w-96 h-72 sm:h-96 rounded-full bg-brand-teal/15 blur-[80px] sm:blur-[120px] animate-aurora-slow -z-10" />
+      <div className="hidden md:block absolute bottom-1/4 right-1/4 w-72 sm:w-96 h-72 sm:h-96 rounded-full bg-brand-purple/15 blur-[80px] sm:blur-[120px] animate-aurora-delay -z-10" />
 
       {/* Cyber Grid Pattern */}
       <div className="absolute inset-0 bg-grid-cyber opacity-[0.4] -z-20" />

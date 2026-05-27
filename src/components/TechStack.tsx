@@ -56,8 +56,8 @@ export default function TechStack() {
   return (
     <section id="tech-stack" className="py-24 bg-brand-deep relative overflow-hidden">
       {/* Visual background accents */}
-      <div className="absolute top-0 right-1/4 w-96 h-96 rounded-full bg-brand-teal/5 blur-[120px] -z-10 animate-aurora-slow" />
-      <div className="absolute bottom-0 left-1/4 w-96 h-96 rounded-full bg-brand-purple/5 blur-[120px] -z-10 animate-aurora-delay" />
+      <div className="hidden md:block absolute top-0 right-1/4 w-96 h-96 rounded-full bg-brand-teal/5 blur-[120px] -z-10 animate-aurora-slow" />
+      <div className="hidden md:block absolute bottom-0 left-1/4 w-96 h-96 rounded-full bg-brand-purple/5 blur-[120px] -z-10 animate-aurora-delay" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">

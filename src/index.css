@@ -141,13 +141,17 @@
   }
 }
 
-.animate-aurora-slow {
-  animation: aurora 15s infinite alternate ease-in-out;
-}
+@media (min-width: 1024px) {
+  .animate-aurora-slow {
+    animation: aurora 15s infinite alternate ease-in-out;
+    will-change: transform;
+  }
 
-.animate-aurora-delay {
-  animation: aurora 18s infinite alternate-reverse ease-in-out;
-  animation-delay: 2s;
+  .animate-aurora-delay {
+    animation: aurora 18s infinite alternate-reverse ease-in-out;
+    animation-delay: 2s;
+    will-change: transform;
+  }
 }
 
 /* Floating animation */

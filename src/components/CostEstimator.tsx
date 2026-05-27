@@ -246,8 +246,8 @@ Mohon informasi lebih lanjut untuk memulai sesi konsultasi gratis. Terima kasih!
   return (
     <section id="estimate" className="py-24 bg-brand-deep relative overflow-hidden">
       {/* Background neon orbs */}
-      <div className="absolute top-1/3 left-10 w-96 h-96 rounded-full bg-brand-teal/5 blur-[120px] -z-10 animate-aurora-slow" />
-      <div className="absolute bottom-10 right-10 w-96 h-96 rounded-full bg-brand-purple/5 blur-[120px] -z-10 animate-aurora-delay" />
+      <div className="hidden md:block absolute top-1/3 left-10 w-96 h-96 rounded-full bg-brand-teal/5 blur-[120px] -z-10 animate-aurora-slow" />
+      <div className="hidden md:block absolute bottom-10 right-10 w-96 h-96 rounded-full bg-brand-purple/5 blur-[120px] -z-10 animate-aurora-delay" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

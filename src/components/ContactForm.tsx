@@ -80,7 +80,7 @@ export default function ContactForm() {
   return (
     <section id="contact" className="py-24 bg-brand-surface relative overflow-hidden">
       {/* Background soft glowing lights */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-brand-teal/5 blur-[150px] -z-10 pointer-events-none" />
+      <div className="hidden md:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-brand-teal/5 blur-[150px] -z-10 pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">

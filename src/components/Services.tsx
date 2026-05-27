@@ -34,8 +34,8 @@ export default function Services() {
   return (
     <section id="services" className="py-24 bg-brand-surface relative overflow-hidden">
       {/* Background shapes */}
-      <div className="absolute top-1/2 left-0 w-80 h-80 rounded-full bg-brand-teal/5 blur-[100px] -z-10" />
-      <div className="absolute bottom-0 right-0 w-80 h-80 rounded-full bg-brand-purple/5 blur-[100px] -z-10" />
+      <div className="hidden md:block absolute top-1/2 left-0 w-80 h-80 rounded-full bg-brand-teal/5 blur-[100px] -z-10" />
+      <div className="hidden md:block absolute bottom-0 right-0 w-80 h-80 rounded-full bg-brand-purple/5 blur-[100px] -z-10" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}

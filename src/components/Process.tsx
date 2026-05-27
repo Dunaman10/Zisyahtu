@@ -62,8 +62,8 @@ export default function Process() {
   return (
     <section id="process" className="py-24 bg-brand-surface relative overflow-hidden">
       {/* Background radial effects */}
-      <div className="absolute top-1/4 left-1/4 w-80 h-80 rounded-full bg-brand-purple/5 blur-[120px] -z-10" />
-      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full bg-brand-teal/5 blur-[120px] -z-10" />
+      <div className="hidden md:block absolute top-1/4 left-1/4 w-80 h-80 rounded-full bg-brand-purple/5 blur-[120px] -z-10" />
+      <div className="hidden md:block absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full bg-brand-teal/5 blur-[120px] -z-10" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
