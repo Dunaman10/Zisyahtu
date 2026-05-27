@@ -33,7 +33,7 @@ export default function Hero() {
             </h1>
 
             {/* Sub-headline */}
-            <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-sans font-light">
+            <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-sans font-light sm:text-start">
               Didirikan oleh 3 co-founder berpengalaman di bidang rekayasa perangkat lunak, 
               kami mentransformasikan ide bisnis Anda menjadi sistem web berkinerja tinggi. 
               Fokus kami: kode yang bersih, performa luar biasa, dan desain visual kelas premium.
@@ -75,7 +75,7 @@ export default function Hero() {
 
           {/* Interactive Code Mockup IDE (Premium Visual Asset) */}
           <div className="lg:col-span-5 w-full flex justify-center animate-float">
-            <div className="w-full max-w-md rounded-2xl border border-white/10 bg-brand-surface/75 backdrop-blur-xl overflow-hidden shadow-2xl">
+            <div className="w-full max-w-md rounded-2xl border border-white/10 bg-brand-surface/98 lg:bg-brand-surface/75 lg:backdrop-blur-xl overflow-hidden shadow-2xl">
               {/* Window Header */}
               <div className="px-4 py-3 bg-brand-deep border-b border-white/5 flex items-center justify-between">
                 <div className="flex items-center gap-2">

@@ -30,7 +30,7 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'py-4 bg-brand-deep/80 backdrop-blur-md border-b border-white/5 shadow-lg'
+          ? 'py-4 bg-brand-deep/95 lg:bg-brand-deep/80 lg:backdrop-blur-md border-b border-white/5 shadow-lg'
           : 'py-6 bg-transparent'
       }`}
     >
@@ -87,7 +87,7 @@ export default function Navbar() {
       <div
         className={`md:hidden transition-all duration-300 ease-in-out ${
           isOpen ? 'opacity-100 max-h-screen border-b border-white/5' : 'opacity-0 max-h-0 overflow-hidden'
-        } bg-brand-deep/95 backdrop-blur-lg`}
+        } bg-brand-deep/98`}
         id="mobile-menu"
       >
         <div className="px-4 pt-2 pb-6 space-y-4 sm:px-3">
